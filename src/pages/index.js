@@ -18,7 +18,7 @@ const IndexPage = () => (
           <div className="col col-md-8">
           <h3>Tastet d'idees</h3>
           <h5>¡Nos vamos contigo de bares!</h5>
-          <p>Queremos escucuchar tus ideas, contarte las nuestras, e <strong>invitarte a tomar algo con nosotros (*)</strong><br />Encuéntranos por las calles de <strong>Bellavista</strong>. El <strong>12 de Noviembre</strong>. De 10.00 a 15:00hh</p>
+          <p>Queremos escuchar tus ideas, contarte las nuestras, e <strong>invitarte a tomar algo con nosotros (*)</strong><br />Encuéntranos por las calles de <strong>Bellavista</strong>. El <strong>12 de Noviembre</strong>. De 10.00 a 15:00hh</p>
           <p>Más información en breve en esta web, y en nuestras redes sociales. <br />¡Nos vemos en las calles!</p>
           </div>
         </div>
