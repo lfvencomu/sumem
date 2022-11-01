@@ -8,26 +8,20 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <section className="py-5 text-center container">
+    <section className="py-5 container">
       <div className="row py-lg-5">
-        <div className="col-lg-6 col-md-8 mx-auto">
-          <h1 className="fw-light">Hello world ! </h1>
-          <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={300}
-            quality={95}
-            formats={["AUTO", "WEBP"]}
-            alt="A Gatsby astronaut"
-            className="img-fluid"
-          />
-
+        <div className="col">
+          <h4><small>Te explicamos cómo <strong>vamos a acabar con la <del>política</del></strong></small>.</h4><h2>Descubre la <strong><u>participación ciudadana total:</u></strong></h2>
         </div>
-      </div>
-      <div className="row">
-        <Link to="/about/" className="btn btn-primary my-2">About</Link>
-        <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
-      </div>
+        </div>
+        <div className="row">
+          <div className="col col-md-8">
+          <h3>Tastet d'idees</h3>
+          <h5>¡Nos vamos contigo de bares!</h5>
+          <p>Queremos escucuchar tus ideas, contarte las nuestras, e <strong>invitarte a tomar algo con nosotros (*)</strong><br />Encuéntranos por las calles de <strong>Bellavista</strong>. El <strong>12 de Noviembre</strong>. De 10.00 a 15:00hh</p>
+          <p>Más información en breve en esta web, y en nuestras redes sociales. <br />¡Nos vemos en las calles!</p>
+          </div>
+        </div>
     </section>
   </Layout>
 )

@@ -2,5 +2,15 @@
 $primary: #663399;
 @import "~bootstrap/scss/bootstrap";
 
-
+footer:before {
+    background: -webkit-gradient(linear, left top, right top, from(#81217a), color-stop(9%, #1f8eba), color-stop(17%, #9fc33a), color-stop(25%, #fbcb06), color-stop(33%, #eb6134), color-stop(40%, #e5155b), color-stop(48%, #c61b34), color-stop(57%, #e5155b), color-stop(64%, #eb6134), color-stop(72%, #fbcb06), color-stop(79%, #9fc33a), color-stop(88%, #1f8eba), to(#81217a));
+    background: -o-linear-gradient(left, #81217a, #1f8eba 9%, #9fc33a 17%, #fbcb06 25%, #eb6134 33%, #e5155b 40%, #c61b34 48%, #e5155b 57%, #eb6134 64%, #fbcb06 72%, #9fc33a 79%, #1f8eba 88%, #81217a);
+    background: linear-gradient(90deg, #81217a, #1f8eba 9%, #9fc33a 17%, #fbcb06 25%, #eb6134 33%, #e5155b 40%, #c61b34 48%, #e5155b 57%, #eb6134 64%, #fbcb06 72%, #9fc33a 79%, #1f8eba 88%, #81217a);
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
