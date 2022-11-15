@@ -1,9 +1,10 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { Link } from "gatsby"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import MyLandbot from "./../components/MyLandbot";
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
       <div className="row py-lg-5">
         <div className="col">
           <h4><small>Te explicamos cómo <strong>vamos a acabar con la <del>política</del></strong></small>.</h4><h2>Descubre la <strong><u>participación ciudadana total:</u></strong></h2>
+          <MyLandbot url="https://chats.landbot.io/u/H-504749-YPHR4CX6K7LGJLXB/index.json" />
         </div>
         </div>
         <div className="row">
@@ -26,4 +28,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage;
